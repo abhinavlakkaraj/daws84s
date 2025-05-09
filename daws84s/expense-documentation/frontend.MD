@@ -48,7 +48,7 @@ Add the following content
 ```
 proxy_http_version 1.1;
 
-location /api/ { proxy_pass http://localhost:8080/; }
+location /api/ { proxy_pass http://backend.daws84s.online:8080/; }
 
 location /health {
   stub_status on;
