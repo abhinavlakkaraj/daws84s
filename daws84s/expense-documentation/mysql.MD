@@ -32,7 +32,7 @@ We can check data by using client package called mysql.
 Usually command to connect mysql server is
 
 ```
-mysql -h <host-address> -u root -p<password>
+mysql -h mysql.daws84s.online -u root -pExpenseApp@1
 ```
 
 But if your client and server both are in a single server, you can simply issue.
