@@ -73,7 +73,7 @@ Description = Backend Service
 
 [Service]
 User=expense
-Environment=DB_HOST="<MYSQL-SERVER-IPADDRESS>"
+Environment=DB_HOST="mysql.daws84s.online"
 ExecStart=/bin/node /app/index.js
 SyslogIdentifier=backend
 
@@ -110,7 +110,7 @@ dnf install mysql -y
 Load Schema
 
 ```
-mysql -h <MYSQL-SERVER-IPADDRESS> -uroot -pExpenseApp@1 < /app/schema/backend.sql
+mysql -h mysql.daws84s.online -uroot -pExpenseApp@1 < /app/schema/backend.sql 
 ```
 
 Restart the service.
